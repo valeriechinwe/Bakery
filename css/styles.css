@@ -1,0 +1,276 @@
+body {
+  background-color:white;
+  font-family: 'Sofia', cursive;
+}
+
+div.header-img {
+  width:100%;
+  overflow:hidden;
+  position:fixed;
+  background-color:#ffe6ff;
+  border-radius:50px;
+  /* margin-top: 0; */
+}
+
+#header-img {
+  overflow:hidden;
+  width:80px;
+  filter:drop-shadow(15px 1px 18px yellow);
+  margin:auto;
+  display:left;
+  padding:10px 0 0 60px;
+  /* Background-color:#; */
+  /* position:#; */
+  border-radius:50px;
+}
+
+div.nav-bar {
+  overflow:hidden;
+  position: fixed;
+  /* background-color:#; */
+  width:auto;
+  top:20px;
+  /* padding-right:#; */
+  bottom: 8px;
+  right: 16px;
+  }
+
+.nav-link {
+  overflow:hidden;
+  color:black;
+  text-decoration:strong;
+  text-align:center;
+  font-size:18px;
+  padding:5px 30px;
+  transition:background .50s ease;
+}
+
+.nav-link:hover {
+  background-color:#54e346;
+  border-radius: 50px;
+}
+
+.title {
+  margin-top:80px;
+  color:black;
+  text-align:center;
+  background-color: #cc0066;
+  border-radius: 50px;
+  }
+
+#email {
+  display:block;
+  margin:auto;
+  width:180px;
+  padding:10px;
+  border-radius:30px;
+  border-style: inset;
+  background-color:white;
+  font-size:13px;
+  transition:width .5s ease, background .5s ease;
+}
+
+#email::placeholder {
+  color:black;
+  opacity:40%;
+}
+
+#email:hover {
+  background-color:#ffff66;
+  width:300px;
+}
+
+ #submit {
+  display:block;
+  margin:auto;
+  padding:8px;
+  border:none;
+  border-radius:50px;
+  width:120px;
+  background-color:green;
+  margin-top:5px;
+  color:black;
+  font-size:13px;
+  transition:background .5s ease;
+}
+
+ #submit:hover {
+  background-color:#54e346;
+}
+
+.text {
+  width:700px;
+  margin:auto;
+  color: #c65353;
+  margin-top:80px;
+  transition:text-shadow .5s ease;
+}
+
+.text:hover{
+  /* text-shadow:0px 0px 10px; */
+}
+
+p, .ul {
+  font-family: sans-serif;
+  color: #798777;
+  line-height: 2;
+}
+
+/* #video{
+  margin:auto;
+  display:inline;
+  margin-top:auto;
+  margin-bottom:auto;
+  background-color:#ffe6ff;
+  padding:5px;
+} */
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFE6ff;
+  justify-content:center;
+  border-radius: 50px;
+  padding: 40px;
+}
+
+.mid-container {
+  padding: 50px;
+}
+
+.display-images {
+  line-height: 6;
+}
+
+div.flex-container {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+
+.products {
+  background-color:#ffe6ff;
+  margin:20px;
+  transition:box-shadow .5s ease;
+  border-radius: 50px;
+}
+
+.products:hover {
+  box-shadow:0 0 10px yellow;
+}
+
+div.product-title {
+  padding: 5px;
+  background-color: #cc0066;
+  text-align:center;
+  border-radius: 50px;
+}
+
+div.product-description {
+  /* color:#; */
+}
+
+#product-submit{
+  background-color:green;
+  border-style:outset;
+  width:#;
+  color:white;
+  font-size:16px;
+  padding:7px;
+  transition:background .5s ease;
+}
+
+#product-submit:hover{
+  background-color:yellow;
+}
+
+a {
+  padding: 25px 40px;
+  text-decoration-style: double;
+  }
+
+a:hover {
+  color: green;
+}
+
+
+footer {
+background-color: #cc0066;
+padding: 12px 12px 12px 12px;
+text-align: center;
+color: white;
+font-size: 1.0rem;
+border-radius: 50px;
+}
+
+.afoot {
+  text-decoration: none;
+}
+
+.mine {
+  padding-top: 50px;
+}
+
+
+/* div.cake-img{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+div.pastry-img{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  }
+div.chin-img{
+ display:flex;
+  justify-content:center;
+  text-align:center;
+} */
+
+@media screen and (max-width:600px){
+  .flex-container{
+    flex-direction:column;
+  }
+  .nav-link{
+    width:100%;
+    height:auto;
+  }
+
+  .text{
+    width:100%;
+    height:auto;
+  }
+
+  .title {
+    width:100%;
+    height:auto;
+   }
+
+  /* #video{
+    width:100%;
+    height:auto;
+  } */
+
+  .nav-bar{
+    width:100%;
+    height:auto;
+  }
+
+  .links{
+     width:100%;
+    height:auto;
+  }
+  .header-img{
+     width:100%;
+    height:auto;
+  }
+  .nav-link{
+    width:100%;
+    height:auto;
+  }
+  header{
+    width:100%;
+    height:auto;
+  }
+}

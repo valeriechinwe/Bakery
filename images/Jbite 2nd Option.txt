@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JBite Confectionery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button">Products</a>
+   <a href="#our-story" onclick="w3_close()" class="w3-bar-item w3-button">Our Story</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+           <a href="https://imgur.com/my9i8Jc"><img class="w3-right w3-padding-16" src="https://i.imgur.com/my9i8Jcs.jpg" title="source: imgur.com" /></a>
+    <div class="w3-center w3-padding-16" style="color:Crimson; font-size:35px;">JBite Confectionery</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+<div class="text" id="home">
+  <h2>Welcome to JBite Confectionery</h2>
+  <p>We are committed to providing you the most heavenly and delicious authentic cakes, cookies, pies and all other pasteries, handcrafted with love and baked with passion.</p>
+
+  <h2>We deliver nationwide</h2>
+  <p>We are very punctual to make sure you recieve your order as soon as you require. Delivery within Abuja, FCT takes within 1-2 days, delivery to other states takes within 2-4 days.</p>
+
+  <h2>Priced to perfection</h2>
+  <p>You get your moneys' worth as all our products are super rich and we make use of premuim ingedients for every order.</p>
+</div>
+<br>
+
+  <hr id="products">
+<br>
+<h1 style="text-align:center; color:crimson; font-size:25px;">Products</h1>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="products">
+    <div class="w3-quarter">
+        <a href="https://imgur.com/DfyemEE"><img src="https://i.imgur.com/DfyemEEh.jpg" style="width:100%" alt="JBite Special Cake" /></a>
+            <h3>Double Classic Cake from <del>N</del>16,999</h3>
+      <p>Peppa Pig and Abby Hatcher came out to play in this creation. Let your child's favorite character come alive in their dream cake as they clock a new age.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://imgur.com/ZvYavsy"><img src="https://i.imgur.com/ZvYavsyh.jpg" style="width:100%" alt="JBite Special Cake" /></a>
+      <h3>Ice Breaking Cake from <del>N</del>12,999 </h3>
+      <p>This cake is for that gorgeous friend on their birthday. You can't begin to imagine the yumminess of this cake, more delicious than it looks.</p>
+    </div>
+    
+    <div class="w3-quarter">
+     <a href="https://imgur.com/0WSzxAd"><img src="https://i.imgur.com/0WSzxAdh.jpg" style="width:100%" alt="JBite Special Cake" /></a>
+      <h3>Strawberry Cake from <del>N</del>10,000</h3>
+      <p>Strawberry and vanila cake looks so good but tastes even better. Let's make your special day even more special with our luxury, show stopper cakes.</p>
+    </div>
+    
+    <div class="w3-quarter">
+            <a href="https://imgur.com/WK6UANd"><img src="https://i.imgur.com/WK6UANdh.jpg" style="width:100%" alt="JBite Special Cake" /></a>
+      <h3>Unveil Me Cake from <del>N</del>9,999</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum Lorem ipsum text praesent tincidunt ipsum lipsumLorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>    
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="https://imgur.com/JVXoAQ1"><img src="https://i.imgur.com/JVXoAQ1h.jpg" style="width:100%" alt="JBite Treats" /></a>
+      <h3>Jam and Glazed Doughnut from <del>N</del>999 per box</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+     <a href="https://imgur.com/jTd2Bra"><img src="https://i.imgur.com/jTd2Brah.jpg" style="width:100%" title="JBite Treats" /></a>
+      <h3>Meatpies, Chickenpies, Sausage Rolls from <del>N</del>1,499 per box</h3>
+      <p>We offer a broad range of yummy pasteries such as meat, chicken and fish pies, sausage rolls and rock buns.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://imgur.com/E9XKTFI"><img src="https://i.imgur.com/E9XKTFIh.jpg" style="width:100%" title="JBite Treats" /></a>  
+      <h3>The Perfect Cookies from <del>N</del>699 per pack </h3>
+      <p>A real classic cookie and more. Calorie conscious? We got you covered with our oat, cashew and banana pasteries. Give yourself and guests a treat.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://imgur.com/GQ0XTgS"><img src="https://i.imgur.com/GQ0XTgSh.jpg" style="width:100%" title="JBite Treats" /></a>  
+      <h3>Lip Smacking Chinchin from <del>N</del>500 per pack</h3>
+      <p>We are known all across Abuja for our top notch chinchin like no other. Add Jbite chinchin to your snack pantry now.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="our-story">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3 style="color:crimson;">Who We Are</h3><br>
+<a href="https://imgur.com/tKXdNiA"><img src="https://i.imgur.com/tKXdNiAb.jpg" width="550" height="400" alt="me" /></a>        
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>Humble beginnings and a whole lot of passion </i></h6>
+      <p style="text-align:left;">JBite Confectionery was borne out of love for creating deliciously fresh baked goods and accompanied by excellent service. A passion so strong, I left my career in Occupational Psychology and have been baking quality cakes, pastries, savouries, rolls, pies and more. Our products have been enjoyed by our loyal customers all over Abuja, Lagos and other states across Nigeria.</p>
+
+<p style="text-align:left;">Our cakes are not just pretty pictures - slice into them and they’re decadent dessert.</p>
+
+<p style="text-align:left;">We consider ourselves as an extension of your kitchen. We continue to strive for excellence and look forward to keep on bringing you our renowned and delicious baked goods for centuries to come.</p>
+<br>
+<p style="text-align:left; color:crimson;"> <b> Our Core Values</b>
+      <ul style="text-align:left;">
+        <li>Customer Centric</li>
+        <li>Excellence</li>
+        <li>Quality</li>
+        <li>Affordability</li>
+      </ul>
+
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32" id="contact">
+    <div class="w3-third" >
+      <h3 style="color:crimson;">Reach us at:</h3>
+           <address>
+           Day Spring Homes,<br>
+    Lugbe, Abuja FCT.<br>
+    Nigeria.
+    <br>
+    <h4>Tel & Whatsapp: 07088801810</h4>
+    <h4>Instagram: <a href="https://www.instagram.com/jbiteconfectionery/" target="_blank"> @jbiteconfectionery</a> </h4> <br>
+  </address>
+      
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Cake</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pastry</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Treats</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baker</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chinchin</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Doughnut</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Lagos</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Abuja</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Celebrate</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Healty Treats</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Wedding</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Birthday</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
