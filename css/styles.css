@@ -186,7 +186,7 @@ div.product-description {
 
 a {
   padding: 25px 40px;
-  text-decoration-style: double;
+ 
   }
 
 a:hover {
@@ -265,12 +265,11 @@ div.chin-img{
      width:100%;
     height:auto;
   }
-  .nav-link{
+    header{
     width:100%;
     height:auto;
   }
-  header{
-    width:100%;
-    height:auto;
+  #header-img {
+    visibility: hidden;
   }
 }
